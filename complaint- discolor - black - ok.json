@@ -1,0 +1,104 @@
+{
+  "id": "aa2f1416-bab5-4257-b330-b900c36ba79b",
+  "parentId": "7244acb7-fe54-4626-abee-8b28113ff590",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint- discolor - black - ok",
+  "auto": true,
+  "contexts": [
+    "complaint-discolor-black-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.complaint-discolor-custom-3.complaint-discolor-black-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You're welcome. Bye....."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "a88cea3e-5417-43e4-b668-c47880883091",
+      "data": [
+        {
+          "text": "thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e3a8af66-d08c-43b7-b315-6e3a55794768",
+      "data": [
+        {
+          "text": "thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2b80a674-0755-40f0-bdf5-ff61427421d8",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f986d3e0-93c4-4110-8832-2cf7055069f5",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "68ceddd5-05e8-47d7-9408-ee3956382d0c",
+      "data": [
+        {
+          "text": "ok thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0672a57d-7686-4498-b527-16eab3455ef1",
+      "data": [
+        {
+          "text": "okay thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

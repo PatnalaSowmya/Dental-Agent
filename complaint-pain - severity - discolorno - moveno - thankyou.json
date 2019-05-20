@@ -1,0 +1,126 @@
+{
+  "id": "0129fbed-82fa-4f39-ba9a-4b47edf7a99e",
+  "parentId": "bccad1e8-310e-441c-b15a-c47ed1cd3903",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint-pain - severity - discolorno - moveno - thankyou",
+  "auto": true,
+  "contexts": [
+    "complaint-pain-severity-discolorno-moveno-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.complaint-pain-custom.complaint-pain-severity-no.complaint-pain-severity-discolorno-no.complaint-pain-severity-discolorno-moveno-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You're welcome. Bye.."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "af2fb362-dfa2-4e2f-8630-9fafe424b829",
+      "data": [
+        {
+          "text": "thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "51249b11-a518-49ba-b6f5-6d85cb59cbe2",
+      "data": [
+        {
+          "text": "okay thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6398871e-5233-4a28-9f59-d03bdc3c1cde",
+      "data": [
+        {
+          "text": "ok thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "12af1241-e5dc-4bf4-a586-0b764c84e987",
+      "data": [
+        {
+          "text": "okay thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "edd62019-7c91-47cb-93d0-fdaf187cb036",
+      "data": [
+        {
+          "text": "thank you for your suggestion"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "84a576fe-7f28-42af-b21c-67a339519a7e",
+      "data": [
+        {
+          "text": "ok thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ed802ffd-56d2-4acd-a026-e1f499004787",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6bbf1b36-00eb-4ee8-abf5-84538337f11c",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

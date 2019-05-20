@@ -1,0 +1,204 @@
+{
+  "id": "c735e111-c883-467c-b6d2-757b16f04c69",
+  "parentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint- discolor",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "complaint-discolor-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "82566c19-d5ce-4e53-8a76-956819662611",
+          "required": false,
+          "dataType": "@discolor",
+          "name": "discolor",
+          "value": "$discolor",
+          "isList": false
+        },
+        {
+          "id": "dd804754-fe52-4abf-bb5a-3a3f13bb866b",
+          "required": false,
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "What type of dis coloration do you have? Blackish, Yellowish or pinkish."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "0a015eab-62e6-4785-88a2-fef401a0931f",
+      "data": [
+        {
+          "text": "dark",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "00b4d6f0-d350-4318-8a24-e74e1b5fad67",
+      "data": [
+        {
+          "text": "pink",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        },
+        {
+          "text": " color"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "00fb4cd6-a4ef-4f8f-8d01-93865d8a658c",
+      "data": [
+        {
+          "text": "discolouration",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8b1b178f-1fcb-4380-b012-f8db398584ce",
+      "data": [
+        {
+          "text": "discoloration",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f6a8adaa-0c0d-4b2f-853b-6beedcaa7fdd",
+      "data": [
+        {
+          "text": "dis colouration",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2ce10fb8-febd-44e5-aaa6-b5b8f1b85b62",
+      "data": [
+        {
+          "text": "dis coloration",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "19019cb6-7b77-443f-9557-af5878a4df0d",
+      "data": [
+        {
+          "text": "dis colour",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5d8d66c2-3090-4f58-bb48-0d7b3a004160",
+      "data": [
+        {
+          "text": "dis color",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a3901549-c513-4c98-b802-be94e2271d07",
+      "data": [
+        {
+          "text": "discolour",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6146ccbc-2841-4b5a-a453-539f49a9cb35",
+      "data": [
+        {
+          "text": "discolor",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

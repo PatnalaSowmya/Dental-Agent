@@ -1,0 +1,93 @@
+{
+  "id": "c36d2fd4-951b-4ff0-af0a-8b8c3e937a15",
+  "parentId": "8e63fc3b-960b-42bf-adb7-eba021eec83f",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint-bleeding - nohabit - yesdisalign - ok",
+  "auto": true,
+  "contexts": [
+    "complaint-bleeding-nohabit-yesdisalign-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-2.complaint-bleeding-no.complaint-bleeding-no-yes.complaint-bleeding-nohabit-yesdisalign-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry, I am not provided with that facility."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ba55a8d6-3620-4291-9dd5-75f31a2d2886",
+      "data": [
+        {
+          "text": "Can you set an appointment."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1b28c8df-a66b-40dc-9973-6821533841ed",
+      "data": [
+        {
+          "text": "Ok.Can you set an appointment."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5436b8cb-91eb-4647-8761-3145252ad372",
+      "data": [
+        {
+          "text": "Set an appointment."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "100efe1f-62ef-4b01-bf78-96585c68bbd8",
+      "data": [
+        {
+          "text": "Can you suggest me  a doctor."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "88b6b42d-63af-4c29-b465-d1702df348da",
+      "data": [
+        {
+          "text": "Ok.Can you suggest me  a doctor."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

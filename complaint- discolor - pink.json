@@ -1,0 +1,89 @@
+{
+  "id": "d0887929-06c6-40b9-9412-06b1f2d48a8a",
+  "parentId": "c735e111-c883-467c-b6d2-757b16f04c69",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint- discolor - pink",
+  "auto": true,
+  "contexts": [
+    "complaint-discolor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.complaint-discolor-custom-2",
+      "affectedContexts": [
+        {
+          "name": "complaint-discolor-custom-2-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "50418dd8-3f46-4fbf-8d37-420dd21fafa6",
+          "required": false,
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        },
+        {
+          "id": "7a64c853-e399-4b79-87b3-502b5c5aabeb",
+          "required": false,
+          "dataType": "@discolor",
+          "name": "discolor",
+          "value": "$discolor",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Do you have any sensitivity to hot or cold substances?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4d4d975a-3450-4ca5-9601-2759f8c36b0c",
+      "data": [
+        {
+          "text": "pinkish",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0710bd1c-eb42-437c-9098-b29f33554128",
+      "data": [
+        {
+          "text": "pink",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

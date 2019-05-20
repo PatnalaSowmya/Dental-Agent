@@ -1,0 +1,104 @@
+{
+  "id": "9f4b3343-32ef-4140-99cc-31f844460e1c",
+  "parentId": "7c3ca415-321e-4598-a59a-301793525e65",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint- discolor - yellow - ok",
+  "auto": true,
+  "contexts": [
+    "complaint-discolor-yellow-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.complaint-discolor-custom.complaint-discolor-yellow-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You're welcome. Bye.."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "9ae4ae8c-c03b-4b38-b125-1b7496174da5",
+      "data": [
+        {
+          "text": "thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "36b74621-d395-4e5d-8cb8-d0fa7696e09f",
+      "data": [
+        {
+          "text": "okay thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ad005b06-f9c5-47b0-9060-fa4c8daa2bb7",
+      "data": [
+        {
+          "text": "ok thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3cf46b9f-2ca8-478e-9508-fda3adb41b6b",
+      "data": [
+        {
+          "text": "ok thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4ca2d874-4bcb-4e49-9c6e-e676abc940e5",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "80806bed-6792-4ec5-aa4f-537657377197",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

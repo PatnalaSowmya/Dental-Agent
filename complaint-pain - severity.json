@@ -1,0 +1,122 @@
+{
+  "id": "59834931-4903-4791-8878-467bd8c7c9e4",
+  "parentId": "0b55d13b-30fc-4d3a-87b6-33a8de323257",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint-pain - severity",
+  "auto": true,
+  "contexts": [
+    "complaint-pain-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.complaint-pain-custom",
+      "affectedContexts": [
+        {
+          "name": "complaint-pain-severity-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0d881a36-28e4-40f3-bae0-117425080923",
+          "required": false,
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Do you have any discoloration in your teeth?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8e5dd253-ac88-463c-9dc2-ec6166f9f8e2",
+      "data": [
+        {
+          "text": "severe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e7cf2ec6-ff37-49e6-8a48-b8447633d4d2",
+      "data": [
+        {
+          "text": "moderate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d00899eb-db93-4cc9-a8d5-87596ccf1df0",
+      "data": [
+        {
+          "text": "mild"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6d066681-4058-4e57-afe2-081e67f938f4",
+      "data": [
+        {
+          "text": "high"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f03b1a7a-5295-4daf-8139-65b3e85f3a0b",
+      "data": [
+        {
+          "text": "normal",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9563d04f-cf77-4d5e-b152-c7b551d1101e",
+      "data": [
+        {
+          "text": "low"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

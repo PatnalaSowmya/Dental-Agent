@@ -1,0 +1,82 @@
+{
+  "id": "b6d4f871-3ccf-47fe-8155-5fe7c2053341",
+  "parentId": "4ea4e36c-9c62-4e91-a365-70697fc3bbf5",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint-pain - severity - discolorno - moveyes - ok",
+  "auto": true,
+  "contexts": [
+    "complaint-pain-severity-discolorno-moveyes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.complaint-pain-custom.complaint-pain-severity-no.complaint-pain-severity-discolorno-yes.complaint-pain-severity-discolorno-moveyes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry. I am not provided with that facility."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "6b901e99-cc1c-4a98-80a5-e55d3692df0b",
+      "data": [
+        {
+          "text": "Can you set an appointment."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8c597f7b-eea2-4cbe-88c0-9cc2abf92d72",
+      "data": [
+        {
+          "text": "set an appointment."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f3f310a1-7d08-4efc-9cd5-0156b06d8c34",
+      "data": [
+        {
+          "text": "Can you suggest me a doctor."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8ab16c09-0844-49cd-bef0-f9bb8ad05ff8",
+      "data": [
+        {
+          "text": "Ok. Can you suggest me a doctor."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

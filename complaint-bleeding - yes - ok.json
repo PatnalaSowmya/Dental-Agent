@@ -1,0 +1,158 @@
+{
+  "id": "a21287ba-28d6-44cf-86de-e09ee6efd1be",
+  "parentId": "450fc9dd-da2c-4721-9a23-3f3f36bfa007",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint-bleeding - yes - ok",
+  "auto": true,
+  "contexts": [
+    "complaint-bleeding-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-2.complaint-bleeding-yes.complaint-bleeding-yes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You're welcome. Bye.."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "170fa7ff-5d8e-4f61-a9ef-f680def261a2",
+      "data": [
+        {
+          "text": "okay thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6abd043f-b2f3-45bf-a7f9-0428987ab9a1",
+      "data": [
+        {
+          "text": "ok thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d200bc12-d054-4d60-a527-4a44b6065d93",
+      "data": [
+        {
+          "text": "thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    },
+    {
+      "id": "6e6b9092-ec28-4520-93bb-c508d45a89b8",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "156c9b2f-7e3b-4459-8652-d8a0fb16e84f",
+      "data": [
+        {
+          "text": "thanks for your "
+        },
+        {
+          "text": "suggestion",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "86545a8d-6f0e-4fbb-8b5d-855e38f4c514",
+      "data": [
+        {
+          "text": "thanks for you "
+        },
+        {
+          "text": "help",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4a92e59c-d003-40b2-bd48-cc635eed1411",
+      "data": [
+        {
+          "text": "ok. thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "40b282a2-3fd6-4c0b-afa6-3bdf3a2f003a",
+      "data": [
+        {
+          "text": "okay.. thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2b9e2b77-50bb-4138-8e55-20aedb677212",
+      "data": [
+        {
+          "text": "thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "92940b97-5475-4c3c-aef3-bab20966c2fd",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

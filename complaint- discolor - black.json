@@ -1,0 +1,89 @@
+{
+  "id": "7244acb7-fe54-4626-abee-8b28113ff590",
+  "parentId": "c735e111-c883-467c-b6d2-757b16f04c69",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint- discolor - black",
+  "auto": true,
+  "contexts": [
+    "complaint-discolor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.complaint-discolor-custom-3",
+      "affectedContexts": [
+        {
+          "name": "complaint-discolor-black-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d6356d6a-ff92-4cdb-a4aa-fb78cf35e9b1",
+          "required": false,
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        },
+        {
+          "id": "784faa8d-15db-490a-830f-5e269cc89192",
+          "required": false,
+          "dataType": "@discolor",
+          "name": "discolor",
+          "value": "$discolor",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No need to worry. Brush your teeth twice a day."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ffca45ed-1735-43a7-8ec8-33913ae93369",
+      "data": [
+        {
+          "text": "blackish",
+          "alias": "discolor",
+          "meta": "@discolor",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "516d2edf-e829-43e9-b56b-899a595f298d",
+      "data": [
+        {
+          "text": "black",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,209 @@
+{
+  "id": "0b55d13b-30fc-4d3a-87b6-33a8de323257",
+  "parentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint-pain",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "complaint-pain-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4fa4cefa-9b3d-47c1-b618-07cfebe551fd",
+          "required": false,
+          "dataType": "@pain",
+          "name": "pain",
+          "value": "$pain",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "What is the severity in pain? Mild, moderate or severe."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "fd9fc9cd-85a0-46e3-8dc9-ce3e3c1b80bb",
+      "data": [
+        {
+          "text": "pain",
+          "alias": "pain",
+          "meta": "@pain",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3436adc5-43de-4eae-a5bb-ece1d1be3864",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "tooth",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " are like "
+        },
+        {
+          "text": "shooting",
+          "alias": "pain",
+          "meta": "@pain",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b98aa62f-94c8-4d77-b612-50782ae2c29b",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "tooth",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "aching",
+          "alias": "pain",
+          "meta": "@pain",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d9329ec3-ab5f-4dbc-af88-0ee4180ecd89",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "tooth",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "throbbing",
+          "alias": "pain",
+          "meta": "@pain",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2c84af61-4b3a-4c10-92e1-bd8a2136fe0f",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "tooth",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "squeezing",
+          "alias": "pain",
+          "meta": "@pain",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ecb68c04-0e05-46d3-8704-7fd8a661b44d",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "teeth",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " are "
+        },
+        {
+          "text": "hurting",
+          "alias": "pain",
+          "meta": "@pain",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "593a1f57-532f-4749-9fa7-5889ca736da9",
+      "data": [
+        {
+          "text": "i am getting "
+        },
+        {
+          "text": "pain",
+          "alias": "pain",
+          "meta": "@pain",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

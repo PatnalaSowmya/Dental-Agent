@@ -1,0 +1,98 @@
+{
+  "id": "bf4a51bd-0faa-4185-ae8a-16e248fa633f",
+  "parentId": "fd72a391-b2bc-4bdc-a6fc-2a1a5802eb8a",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint-bleeding - nohabit - nodisalign - yes - ok",
+  "auto": true,
+  "contexts": [
+    "complaint-bleeding-nohabit-nodisalign-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-2.complaint-bleeding-no.complaint-bleeding-no-no.complaint-bleeding-nohabit-nodisalign-yes.complaint-bleeding-nohabit-nodisalign-yes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry. I am not provided with that facility."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ca69bc09-5336-4d77-b52e-3d5ddb0b2f5a",
+      "data": [
+        {
+          "text": "Can you suggest a "
+        },
+        {
+          "text": "doctor",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d390bd43-4b1d-4503-bfe6-1a31fab690cb",
+      "data": [
+        {
+          "text": "Set an appointment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a93a0672-e85b-4ccf-a98e-9d2610942c3f",
+      "data": [
+        {
+          "text": "Can you set an appointment."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0951017f-7a5a-4657-b1eb-e5e19722e708",
+      "data": [
+        {
+          "text": "Suggest a doctor"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1a0961ec-3a1e-402c-91e3-b76627f389f2",
+      "data": [
+        {
+          "text": "Ok. Can you suggest a doctor"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

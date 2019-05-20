@@ -1,0 +1,93 @@
+{
+  "id": "bbe6efc7-5e17-4ec0-b160-a78f5eeb4b16",
+  "parentId": "ef1c944b-b4d3-41fa-8ac2-930d8d0c1ff3",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint- discolor - pink - no - ok",
+  "auto": true,
+  "contexts": [
+    "complaint-discolor-pink-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.complaint-discolor-custom-2.complaint-discolor-custom-2-no.complaint-discolor-pink-no-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry. I am not provided with that facility."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "534f508c-edc8-4ccb-b4dd-41d5aacb8c3f",
+      "data": [
+        {
+          "text": "suggest me a doctor."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "17125f61-dea0-4b25-bf24-bed5dc76c232",
+      "data": [
+        {
+          "text": "Set an appointment."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1263b8cc-fde1-4ff4-85c0-bd862aab19db",
+      "data": [
+        {
+          "text": "Can you set an appointment."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9aa9b778-efc0-46f2-a1ee-a9a53fc202fa",
+      "data": [
+        {
+          "text": "Can you suggest me a doctor."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "581e2d5c-f70a-4252-a5c5-844eafff1bad",
+      "data": [
+        {
+          "text": "Ok. can you suggest me a doctor."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

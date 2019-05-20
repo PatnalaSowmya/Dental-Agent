@@ -1,0 +1,115 @@
+{
+  "id": "864afb89-f3e2-45b3-ab54-b0ecd8199911",
+  "parentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "rootParentId": "d1391977-a77c-4e2f-b006-7fc1f9b7cc41",
+  "name": "complaint-bleeding",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-2",
+      "affectedContexts": [
+        {
+          "name": "complaint-bleeding-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3f95ae81-1295-494b-a44e-4b0d54301041",
+          "required": false,
+          "dataType": "@bleed",
+          "name": "bleed",
+          "value": "$bleed",
+          "isList": false
+        },
+        {
+          "id": "efc6d944-b32f-47a6-b30c-ec47d1ad0287",
+          "required": false,
+          "dataType": "@site_of_pain",
+          "name": "site_of_pain",
+          "value": "$site_of_pain",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Do you have any habits like smoking or tobacco chewing?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ffd5e05f-ab92-4eb1-bf68-fd447214ef45",
+      "data": [
+        {
+          "text": "blood",
+          "alias": "bleed",
+          "meta": "@bleed",
+          "userDefined": false
+        },
+        {
+          "text": " is coming out of my "
+        },
+        {
+          "text": "teeth",
+          "alias": "site_of_pain",
+          "meta": "@site_of_pain",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "de696bee-f518-4059-a485-631938fd5ec0",
+      "data": [
+        {
+          "text": "my mouth is "
+        },
+        {
+          "text": "bleeding",
+          "alias": "bleed",
+          "meta": "@bleed",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2613111d-b72c-40c5-83b6-94cc10d85ab9",
+      "data": [
+        {
+          "text": "bleeding",
+          "alias": "bleed",
+          "meta": "@bleed",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
